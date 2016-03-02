@@ -1,0 +1,379 @@
+/*******************************************
+ * Styles for bidder and common screens
+ * 
+ *  dark green: 5C7634
+ * light green: 94AB5C
+ *******************************************/
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+/* ===================================== begin common elements ========================================= */
+.button {
+	background-image: url(../images/common/graphic_topbar.png);
+	padding: 2px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	width: 170px;
+}
+
+.buttonSmall {
+	background-image: url(../images/common/graphic_topbar.png);
+	padding: 2px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	width: 100px;
+}
+
+.table_header {
+	background-image: url(../images/common/graphic_topbar.png);
+	background-repeat: repeat-x;
+	color: white;
+	font-weight: bold;
+	height: 25px;
+	padding: 3px 10px 3px 10px;
+}
+
+.table_header_selected {
+	background-image: none;
+	background-color: #93AB58;
+	color: white;
+	font-weight: bold;
+	height: 25px;
+	padding: 3px 10px 3px 10px;
+	white-space: nowrap;
+}
+
+.table_header a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.table_header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.table_header a: hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.timeFormField {
+	width: 45px;
+}
+
+input,textarea,select {
+	border: 1px solid #5D7835;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.formField {
+	width: 170px;
+	_width: auto;
+}
+
+.smallFormField {
+	width: 20px;
+}
+
+.unitFormField {
+	min-width: 170px;
+	width: auto;
+}
+
+.sortOrderFormField {
+	width: 30px;
+}
+
+.checkradio {
+	border: none;
+}
+
+.floatcontainer:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.floatcontainer {
+	display: inline-block;
+}
+
+/* Hides from IE Mac */
+* html .floatcontainer {
+	height: 1%;
+}
+
+.floatcontainer {
+	display: block;
+}
+/* End Hack */
+/* ===================================== end common elements ========================================= */
+
+/* ===================================== begin login page ========================================= */
+#welcomeContent {
+	position: relative;
+	padding-top: 5px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+#contentTopBgIndex {
+	border-top: 1px solid #369;
+	background-color: #E6E6E6;
+}
+
+#contentTopDkBgIndex {
+	border-top: 1px solid #369;
+	background-color: #ccc;
+}
+
+#contentTopRtBgIndex {
+	background-image: url(../images/graphic_toprtbg_1.gif);
+	background-repeat: no-repeat;
+	width: 14px;
+	background-color: #ccc;
+}
+
+#contentRtShadBgIndex {
+	background-image: url(../images/graphic_rtshad_1.gif);
+	background-repeat: repeat-y;
+	width: 10px;
+	background-color: #ccc;
+}
+
+#contentBotDkShadBgIndex {
+	background-image: url(../images/graphic_botshad.gif);
+	background-repeat: repeat-x;
+	height: 14px;
+	background-color: #ccc;
+}
+
+#contentBotRtBgIndex {
+	background-image: url(../images/graphic_botrtbg_1.gif);
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	background-color: #ccc;
+}
+
+#welcomeCell {
+	background-color: #E6E6E6;
+}
+
+#welcomArea {
+	border: none;
+	padding: 0px;
+}
+
+#featureImage {
+	width: 160px;
+}
+
+#welcomeText {
+	width: 250px;
+	padding-right: 10px;
+}
+
+#loginTable {
+	padding: 5px;
+	border: none;
+}
+
+#loginCell {
+	background-color: #ccc;
+	padding: 0px 10px 5px 10px;
+}
+
+#loginCell input {
+	width: 140px;
+}
+
+.loginExistingUser {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #003366;
+}
+
+.loginNewUser {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #003366;
+}
+
+#aBidShiftProduct {
+	position: absolute;
+	bottom: 14px;
+}
+/* ===================================== end login page ========================================= */
+
+/* ===================================== begin main content ========================================= */
+#mainContent {
+	position: relative;
+	padding-top: 5px;
+	width: 100%;
+	float: left;
+}
+/* ===================================== end main content ========================================= */
+
+/* ===================================== begin header & menu ========================================= */
+#header {
+	width: 100%;
+	z-index: 150;
+	position: relative;
+}
+
+#headerUserInfo {
+	position: relative;
+	width: 100%;
+	color: #333333;
+	white-space: nowrap;
+}
+
+#headerUserInfo span {
+	position: relative;
+	padding: 5px 25px 0px 0px;
+	line-height: 20px;
+}
+
+#headerUserInfo span.right {
+	float: right;
+}
+
+#headerMenuDiv {
+	position: relative;
+	float: right;
+	clear: right;
+	margin: 5px 25px 5px 0px;
+	z-index: 300;
+}
+
+#homeMenuDiv {
+	position: relative;
+	float: left;
+	clear: left;
+	margin: 5px 0px 5px 25px;
+}
+
+#headerBottom {
+	position: relative;
+	width: 100%;
+	float: left;
+	background-image: url(../images/common/header_bottom.png);
+	background-repeat: repeat-x;
+}
+
+#headerBottom .bottomRight {
+	position: relative;
+	float: right;
+	border: 0;
+	margin: 0;
+}
+
+#headerBottom .bottomLeft {
+	position: relative;
+	float: left;
+	border: 0;
+	margin: 0;
+}
+
+/* ===================================== end header & menu ========================================= */
+.table_row_odd {
+	background-color: white;
+}
+
+.table_row_even {
+	background-color: #CCCC66;
+}
+
+/* ===================================== begin footer ========================================= */
+#footer {
+	background-image: url(../images/common/footer.png);
+	background-repeat: repeat-x;
+	position: relative;
+	left: 0px;
+	width: 100%;
+	color: white;
+	height: 46px;
+	margin-top: 15px;
+	float: left;
+}
+
+#copyright {
+	position: absolute;
+	top: 6px;
+	left: 10px;
+	white-space: nowrap;
+}
+
+#copyright a.textLike,
+#copyright a.textLike:active {
+	color: white;
+	text-decoration: none;
+}
+
+#versionFooter {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	white-space: nowrap;
+}
+/* ===================================== end footer ========================================= */
+
+/* ===================================== begin bidshift popup layout ========================================= */
+#topBar {
+	position: relative;
+	width: 100%;
+	height: 25px;
+	color: white;
+	font-weight: bold;
+	background-image: url(../images/common/graphic_topbar.png);
+	background-repeat: repeat-x;
+	white-space: nowrap;
+	border: none;
+}
+
+#titleBar {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+#timeBar {
+	position: absolute;
+	top: 5px;
+	right:10px;
+}
+
+#popupContent {
+	position: relative;
+	padding: 10px;
+	float: left;
+}
+/* ===================================== end bidshift popup layout ========================================= */
+
+/* ===================================== training header ========================================= */
+.training {
+	color: rgb(0, 51, 102);
+	font-family: Arial;
+	font-size: 68px;
+	font-weight: bold;
+	letter-spacing: -6px;
+}

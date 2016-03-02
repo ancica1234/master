@@ -1,0 +1,777 @@
+
+<p>You're logged in!!</p>
+
+<p>&nbsp;
+</p>
+
+
+	
+<div bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" onLoad=''>
+
+
+      
+
+
+
+
+
+<meta http-equiv="pragma" content="no-cache">
+	<title>
+		Ana's Test Unit - ShiftSelect
+	</title>
+   <link data-require="bootstrap-css@*" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" data-semver="3.3.1" />
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    
+    <script data-semver="0.12.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-combined.min.css" rel="stylesheet">
+
+<link rel="icon" href="assets/img/view/favicon.ico" type="image/x-icon">
+<link href="/assets/css/menu.css" rel="stylesheet" type="text/css" />
+
+
+	
+		<link href="/assets/css/oldAdminSystem.css" rel="stylesheet" type="text/css" />
+		<link href="/assets/css/oldAdminCustom.css" rel="stylesheet" type="text/css" />
+		<link href="/assets/css/sharedSystem.css" rel="stylesheet" type="text/css" />
+		<link href="/assets/css/adminCustom.css" rel="stylesheet" type="text/css" />
+	
+	<link href="/assets/css/sm-core-css.css" rel="stylesheet" type="text/css" />
+<link href="/assets/css/sm-clean.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="/assets/js/FormCheck.js"></script>
+<!--  script type="text/javascript" src="/assets/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-ui-1.8.16.custom.min.js"></script>
+
+	
+
+<script type="text/javascript" src="/assets/css/jquery.smartmenus.min.js"></script>
+-->
+	
+		
+	
+	
+
+
+
+
+
+
+
+	
+	<div id="headerUserInfo">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr width="100%">
+				<td width="30%" align="left" style="padding-left:10px"></td>
+				<td width="40%" align="center"><b> Test Hospital - ShiftSelect</b></td>
+				<td width="30%" align="right" style="padding-right:5px;">User, {{vm.user.firstName}} - Thursday, October 20, 2015 4:08 PM</td>
+			</tr>
+		</table>
+	</div>
+
+<body ng-controller="TopNavController">
+
+
+<ul class="nav site-nav">
+  <li><a href=#>Lorem</a></li>
+  <!--
+ -->
+  <li><a href=#>Ipsum</a></li>
+  <!--
+ -->
+  <li class=flyout>
+
+    <a href=#>Dolor</a>
+
+    <!-- Flyout -->
+    <ul class="flyout-content nav stacked">
+      <li><a href=#>Foo Bar</a></li>
+      <li><a href=#>Bar Baz</a></li>
+      <li class="flyout-alt">
+
+        <a href=#>Baz Foo</a>
+
+        <!-- Flyout -->
+        <ul class="flyout-content nav stacked">
+          <li><a href=#>Foo Bar</a></li>
+          <li><a href=#>Bar Baz</a></li>
+          <li class="flyout-alt">
+
+            <a href=#>Baz Foo</a>
+
+            <!-- Flyout -->
+            <ul class="flyout-content nav stacked">
+              <li class="flyout-alt">
+
+                <a href=#>Foo Bar</a>
+
+                <!-- Flyout -->
+                <ul class="flyout-content nav stacked">
+                  <li><a href=#>Bar Baz</a></li>
+                  <li class="flyout-alt">
+
+                    <a href=#>Baz Foo</a>
+
+                    <!-- Flyout -->
+                    <ul class="flyout-contentnav stacked">
+                                            <li><a href=#>Bar Baz</a></li>
+                                            <li><a href=#>Baz Foo</a></li>
+                                            <li><a href=#>Foo Bar</a></li>
+                                        </ul>
+                                    
+                                    </li>
+                                    <li><a href=#>Foo Bar</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li><a href=#>Bar Baz</a></li>
+                            <li class="flyout-alt">
+                                
+                                <a href=#>Baz Foo</a>
+                                
+                                <!-- Flyout -->
+                                <ul class="flyout-content nav stacked">
+                                    <li><a href=#>Bar Baz</a></li>
+                                    <li><a href=#>Baz Foo</a></li>
+                                    <li><a href=#>Foo Bar</a></li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+                
+            </li>
+        </ul>
+    
+    </li><!--
+ --><li><a href=#>Sit</a></li><!--
+ --><li><a href=#>Amet</a></li>
+</ul>​
+
+
+
+
+
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="http://www.apihealthcare.com" class="navbar-brand" align="top" target="_blank"><img src="/assets/img/view/apihealthcare_small_logo.png" border="0"></a>
+        
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" collapse="navCollapsed">
+        <ul class="nav navbar-nav">
+          <li class="active">
+           
+		<a href="/">Home</a>
+		
+          </li>
+
+        </ul>
+        <!-- <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" />
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>-->
+        <ul class="nav navbar-nav navbar-right">
+          
+           <li class="dropdown" dropdown="">
+         
+            <a href="#" id="dropdown-toggle" dropdown-toggle data-toggle="dropdown">Calendars<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+               <li class=flyout>
+
+    <a href=#>Unit Calendars</a>
+
+    <!-- Flyout -->
+    <ul class="flyout-content nav stacked">
+      <li><a href=#>Foo Bar</a></li>
+
+      <li class="flyout-alt">
+
+        <a href=#>Baz Foo</a>
+
+        <!-- Flyout -->
+        <ul class="flyout-content nav stacked">
+          <li><a href=#>Foo Bar</a></li>
+          <li><a href=#>Bar Baz</a></li>
+          <li class="flyout-alt">
+
+            <a href=#>Baz Foo</a>
+
+            <!-- Flyout -->
+            <ul class="flyout-content nav stacked">
+              <li class="flyout-alt">
+
+                <a href=#>Foo Bar</a>
+
+                <!-- Flyout -->
+                <ul class="flyout-content nav stacked">
+                  <li><a href=#>Bar Baz</a></li>
+                  <li class="flyout-alt">
+
+                    <a href=#>Baz Foo</a>
+                  </li>
+                                    <li><a href=#>Foo Bar</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li><a href=#>Bar Baz</a></li>
+                            <li class="flyout-alt">
+                                
+                                <a href=#>Baz Foo</a>
+                                
+                         
+                                
+                            </li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+                
+            </li>
+        </ul>
+    
+    </li>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown" dropdown="">
+         
+            <a href="#" id="dropdown-toggle" dropdown-toggle data-toggle="dropdown">Reports<b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu  .dropdown-menu-right" role="menu">
+              <li>
+               <li class="flyout-alt">
+
+    <a href=#>Audit Report </a>
+
+    <!-- Flyout -->
+    <ul class="flyout-content nav stacked ">
+      <li><a href=#>Employee Reports</a></li>
+
+      <li class="flyout-alt">
+
+        <a href=#>Baz Foo</a>
+
+        <!-- Flyout -->
+        <ul class="flyout-content nav stacked">
+          <li><a href=#>Foo Bar</a></li>
+          <li><a href=#>Bar Baz</a></li>
+          <li class="flyout-alt">
+
+            <a href=#>Baz Foo</a>
+
+            <!-- Flyout -->
+            <ul class="flyout-content nav stacked">
+              <li class="flyout-alt">
+
+                <a href=#>Foo Bar</a>
+
+                <!-- Flyout -->
+                <ul class="flyout-content nav stacked">
+                  <li><a href=#>Bar Baz</a></li>
+                  <li class="flyout-alt">
+
+                    <a href=#>Baz Foo</a>
+                  </li>
+                                    <li><a href=#>Foo Bar</a></li>
+                                </ul>
+                                
+                            </li>
+                            <li><a href=#>Bar Baz</a></li>
+                            <li class="flyout-alt">
+                                
+                                <a href=#>Baz Foo</a>
+                                
+                         
+                                
+                            </li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+                
+            </li>
+        </ul>
+    
+    </li>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+            </ul>
+          </li>
+           <li class="dropdown" dropdown="">
+         
+            <a href="#" id="dropdown-toggle" dropdown-toggle data-toggle="dropdown">Interfaces               <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="dropdown" >
+         
+            <a href="#" id="dropdown-toggle" dropdown-toggle data-toggle="dropdown">Configuration               <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu " role="menu">
+              
+              <li class="dropdown-submenu">
+                <a tablindex="-1" href="#"  >Admin Configuration</a> 
+                <ul class="dropdown-menu "  >
+		                 <li>
+		                <a tabindex="" href="#">Manage Admins</a>
+		              </li>
+		              <li>
+		                <a tabindex="" href="#">Role Configuration</a>
+		              </li>
+                </ul>
+              </li>
+              
+              <li>
+                <a href="#">Manage Admins</a>
+              </li>
+              <li>
+                <a href="#">Role Configuration</a>
+              </li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+            </ul>
+          </li>
+             <li>
+            <a href="#">Search</a>
+          </li>
+            <li class="dropdown" dropdown="">
+         
+            <a href="#" id="dropdown-toggle" dropdown-toggle data-toggle="dropdown">Quick Links               <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#">Change Password</a>
+              </li>
+              <li>
+                <a href="#">Last Minute Scheduling</a>
+              </li>
+              <li>
+                <a href="https://shiftselectqa6.api-wi.com/viewPositions.do">View Existing Positions</a>
+              </li>
+              <li>
+                <a href="#">Primary Shift/Group Updates </a>
+              </li>
+               <li>
+                <a href="#">View Staff Profiles </a>
+              </li>
+               <li>
+                <a href="#">View Qualified Employees </a>
+              </li>
+            </ul>
+          </li>
+           <li class="dropdown" dropdown="">
+         
+            <a href="#" id="dropdown-toggle" dropdown-toggle data-toggle="dropdown">Help              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#">Support </a>
+              </li>
+              <li>
+                <a href="#">Admin User Guide</a>
+              </li>
+              <li>
+                <a href="#">Employee User Guide</a>
+              </li>
+              <li>
+                <a href="#">FAQ </a>
+              </li>
+               <li>
+                <a href="#">Guidelines </a>
+              </li>
+               <li>
+                <a href="#">About ShiftSelect </a>
+              </li>
+            </ul>
+          </li>
+            <li>
+            <a href="#/login">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+
+
+
+<table width="100%">
+
+<th>
+<td>
+
+
+	<div class="sm " style="width: 33%; height: 615px; margin-left: 15px; ">
+
+		<div id="homeMenu" class="mycontainer" ng-controller="MainController">
+			<div class="left-nav">
+				<accordion close-others="true"> <accordion-group
+					is-open="isopen" ng-repeat="item in items"
+					ng-controller="ItemController"> <accordion-heading>
+				{{item.desc}}
+
+
+				<li class="pull-right glyphicon"
+					ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></li>
+				</accordion-heading>
+
+
+
+				<div ng-repeat="subitem in item.subitems">
+					<a href tabindex="0"><span
+						ng-class="{'text-muted': isDisabled}">{{subitem.desc}} </span></a>
+				</div>
+				</accordion-group> </accordion>
+			</div>
+
+			<div class="content" width="width: 33%; height: 615px; margin-left: 15px; ">
+			<p><b>ShiftRewards Points not redeemed</b><span style="float:right"> 1120</span></p>
+				<p><b>Total ShiftRewards Points awarded in program</b><span style="float:right"> 2220</span></p>
+					<p><b>ShiftRewards Points redeemed to date</b><span style="float:right"> 3120</span></p>
+			</div>
+			
+		</div>
+	</div>
+	 
+	
+<DIV id=mgrAnnouncements style=" border: 0px currentColor; border-image: none; left: 200px; top: 1px; width: 100%; height: 400px; overflow: auto; margin-left: 50px; position: absolute;" name="mgrAnnouncements" >
+<div >
+			
+			<table width=665px>
+			<thead>
+   <div ng-repeat="message in vm.user.announcements ">
+    <div ng-bind-html="message.announcement | to_trusted"></div>
+
+  </div>
+  </thead>
+</table>
+			</div>
+		
+			
+		
+
+
+	</div>
+	</td>
+	</th>
+	</table>
+
+
+
+
+
+
+	
+
+			
+		
+		
+		
+		
+		
+		
+		
+		
+        <div id="boxes">
+            <!-- Start of dialog -->
+            <div id="dialog" class="window">
+		    	<img src="/images/spacer.gif" width="1000" height="0"/>
+    		</div>
+            <!-- End of dialog -->
+
+            <!-- Mask to cover the whole screen -->
+            <div id="mask"></div>
+        </div>
+        
+        
+
+	
+
+
+<style>
+
+.accordion__container {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.accordion__tab {
+    background: #aaa;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+.accordion__tab-title {
+    background: #888;
+    padding: 5px;
+    cursor: pointer;
+}
+.accordion__tab-content {
+    background: #999;
+    padding: 20px;
+}
+</style>
+
+
+
+
+
+
+
+	
+		
+			<style>
+			
+		
+/*------------------------------------*\
+    $Footer
+\*------------------------------------*/	
+			#footer {
+	background-image: url(/assets/img/view/footer.png);
+	background-repeat: repeat-x;
+	position: relative;
+	left: 0px;
+	width: 100%;
+	color: white;
+	height: 46px;
+	margin-top: 15px;
+	float: left;
+}
+
+#copyright {
+	position: absolute;
+	top: 6px;
+	left: 10px;
+	white-space: nowrap;
+}
+			ul{
+
+}
+a{
+    text-decoration:none;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $NAV
+\*------------------------------------*/
+/**
+ * Throw any `ul` or `ol` into horizontal mode, as per csswizardry.com/2011/09/the-nav-abstraction.
+   <ul class=nav>
+       <li><a href=/>Home</a></li>
+       <li><a href=/about>About</a></li>
+       <li><a href=/portfolio>Portfolio</a></li>
+       <li><a href=/contact>Contact</a></li>
+   </ul>
+ */
+.nav{
+    list-style:none;
+    margin-left:0;
+      font-size:11px;
+}
+    .nav > li,
+        .nav > li > a{
+            display:inline-block;
+           *display:inline;
+            zoom:1;
+        }
+    
+    /**
+     * Create a vertically stacked nav by extending `.nav` with `.stacked`.
+       <ul class="nav stacked">
+           <li><a href=/>Home</a></li>
+           <li><a href=/about>About</a></li>
+           <li><a href=/portfolio>Portfolio</a></li>
+           <li><a href=/contact>Contact</a></li>
+       </ul>
+     */
+    .stacked > li{
+        display:list-item;
+    }
+        .stacked > li > a{
+            display:block;
+    }
+
+
+
+
+
+/*------------------------------------*\
+    $FLYOUT
+\*------------------------------------*/
+/**
+ * Flyouts are pieces of content that fly out of a parent when said parent is hovered.
+ * They typically appear bottom-left of the parent.
+   <div class=flyout>
+       Foo
+       <div class=flyout-content>
+           <h1>Lorem</h1>
+           <p>Ipsum</p>
+       </div>
+   </div>
+ */
+.flyout,
+.flyout-alt{
+    position:relative;
+}
+    .flyout-content{
+        /* Position the flyouts off-screen. This is typically better than `display:none;`. */
+        position:absolute;
+        top:100%;
+        left:-99999px;
+        /**
+         * Even though they are out of document flow, lots of nested flyouts can
+         * eventually force scroll bars to appear as they become taller than the viewport.
+         * We can undo this effect by giving them zero height.
+         */
+        height:0;
+        overflow:hidden;
+    }
+    
+    /**
+     * Bring the flyouts into view when you hover their parents.
+     * Two different types of flyout; ‘regular’ (`.flyout`) and ‘alternative’ (`.flyout-alt`).
+     */
+    /* Regular flyouts sit all the way from the top, flush left. */
+    .flyout:hover > .flyout-content{
+        left:0;
+    }
+    /* Alternative flyouts sit all the way from the left, flush top. */
+    .flyout-alt:hover > .flyout-content{
+        top:0;
+        left:100%;
+    }
+    .flyout:hover > .flyout-content,
+    .flyout-alt:hover > .flyout-content{
+        /* Give the flyouts their height back once they come into view. */
+        height:auto;
+        overflow:visible;
+    }
+
+
+
+
+
+/*------------------------------------*\
+    $SITE-NAV
+\*------------------------------------*/
+/**
+ * Site nav specific styling.
+ * Extends `.nav{}`
+ */
+.site-nav{
+    font-size:11px;
+  
+}
+        .site-nav a{
+       
+        }
+
+/*--- SITE-NAV FLYOUTS ---*/
+/**
+ * Site nav specific flyouts, extension of `.flyout`.
+ * Set up some styles to apply and persist when we hover things in the site nav.
+ * This allows us to keep parents highlighted as we hover their contained flyouts [1].
+ */
+.site-nav .flyout:hover > a /* [1] */,
+.site-nav .flyout-alt:hover > a /* [1] */,
+.site-nav a:hover{
+   
+    
+}
+
+/**
+ * Add an indicator to any flyout parents in the site nav to show there’s a flyout.
+ */
+.site-nav .flyout-alt > a:after{
+    content:" »";
+}
+
+/**
+ * Here we set up a load of shared borders on the site-nav specific flyouts.
+ * The code looks a little scattered but it allows us to cleverly share declarations:
+ * We set up a non-existent [1] solid [2] border on all sides of the relevant elements.
+ * We can now also change the style [2] and colour [3] of all borders in one go.
+ * Now we have set up border colours and styles, we need to just turn the desired borders ‘on’ [4].
+ */
+.site-nav a,
+.site-nav .flyout-content{
+   font-size:11px;
+}
+.site-nav > li > a{
+    border-left-width:1px; /* [4] */
+}
+/* The first link in the site-nav doesn’t require a border at all. */
+.site-nav > li:first-child > a{
+    border:none;    
+}
+.site-nav .flyout-content{
+    border-width:1px 0 0 1px; /* [4] */
+}
+.site-nav .flyout-content a{
+    border-bottom-width:1px; /* [4] */
+}
+.site-nav .flyout-alt:hover > .flyout-content{
+    /**
+     * To account for the 1px top border on the flyout containers, we need to
+     * bring the flyouts back up by 1px in this special instance.
+     */
+
+}
+
+			</style>
+</div>
+
+
+
+

@@ -1,0 +1,100 @@
+
+<div class="container">
+<div class="sign-in-background" style="height: 735px;">
+<div id="sign-in-container-outer">
+		<div class="sign-in-container">
+			<div class="row">
+				<div class="columns first">
+					<div>
+						<a href="http://www.apihealthcare.com" target="_blank"> <img
+							src="/assets/img/API_Healthcare_Logo.png" />
+						</a>
+					</div>
+					<div class="app-name">
+						<h1>
+							ShiftSelect<sup>&reg;</sup>
+						</h1>
+						<span></span>
+					</div>
+					<div class="app-description">
+						<p id="introText">
+							Take control of your work-life balance with API Healthcare's ShiftSelect. This web-based staffing and scheduling solution makes it easy to view your schedule and request open shifts that work best with your busy life.
+						</p>
+						<img class="custom-client-image"
+							src="/assets/img/view/shiftselect_keyboard.png" width="80"
+							height="80" border="0" />
+					</div>
+					<div class="footer">
+					   <a id="toggleLink" class="paragraph-toggle-default" href="javascript:void(0);" onclick="toggleIntroParagraphArea();">Show more</a>
+					   <br />
+					   <img class="custom-hospital-logo"
+                            src="/assets/img/view/general-hospital.png"
+                            width="180" height="35" border="0" />
+					   <br />&copy; 2015 API Healthcare Corporation.
+					</div>
+				</div>
+		
+				<div class="columns second">
+					<div class="separator"></div>
+					<div class="login-content">
+						<div>
+							<h1>Welcome</h1>
+						</div>
+						<div class="sign-in-message">Please sign in to your account.
+						</div>
+									
+        <div class="container">
+          <div >
+                <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+              
+
+    <div ng-show="vm.error" class="alert alert-danger">{{vm.error}}</div>
+    <form name="form" ng-submit="vm.login()" role="form">
+        <div class="field-wrapper" ng-class="{ 'has-error': form.username.$dirty && form.username.$error.required }">
+            <label for="username">Username</label>
+            <div class="validation-summary-valid" data-valmsg-summary="true" />
+            
+            <input type="text" name="username" id="username" class="form-control" data-val-length="The field User Name must be a string with a maximum length of 60."
+									data-val-length-max="60" ng-model="vm.username" required />
+            <span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>
+        </div>
+        <div class="field-wrapper" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-control" ng-model="vm.password" required />
+            <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary">Login</button>
+            <img ng-if="vm.dataLoading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+            <a href="#/register" class="btn btn-link">Register</a>
+        </div>
+    </form>
+            </div>
+       
+    </div>
+							
+						
+							<div class="forgot-password">
+								<span>I've forgotten my <a href="/forgotpassword/loadResetPassword.do;jsessionid=1pLClcOKQj6FR3AEMwXjJVSd">Password</a></span>
+							</div>
+							<div class="create-account"  >
+								<span>Don't have an account? <a
+									href="signup/loadUserSignup.do">Create one now.</a></span>
+							</div>
+							<div class="sign-in-button">
+								
+								<button id="signIn" name="Submit" type="submit" class="button primary"
+									value="Login">Sign In</button>
+							</div>
+				
+					</div>
+					<div class="loginVersionFooter">v.2015.2.0.0 build 16</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    </div>
+
+    </div>
+    

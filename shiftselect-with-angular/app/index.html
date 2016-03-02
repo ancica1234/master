@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="js flexbox rgba multiplebgs backgroundsize borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent localstorage sessionstorage svg bgpositionxy bgpositionshorthand no-display-runin boxsizing no-bgrepeatround no-bgrepeatspace display-table mediaqueries cssfilters cssresize cssscrollbar lastchild classlist dataset formattribute fileinput no-ie8compat no-createelement-attrs json"> <!--<![endif]-->
+
+
+
+		
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+<title>API Healthcare - ShiftSelect</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="app.css" rel="stylesheet" />
+     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
+     
+    <script src="/assets/js/ui-bootstrap-tpls-0.10.0.js"></script>
+  
+      <link rel="stylesheet" href="/assets/css/normalize.css"/>
+<link rel="stylesheet" href="/assets/css/_shared-fonts.css"/>
+
+<link rel="stylesheet" href="/assets/css/structure.css"/>
+
+<link rel="stylesheet" href="/assets/css/core-login.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/img/view/favicon.ico" />
+
+<link rel="icon" href="/img/view/favicon.ico" type="image/x-icon">
+<link href="/assets/css/menu.css" rel="stylesheet" type="text/css" />
+
+
+	
+		
+	
+	
+
+<!--script type="text/javascript" src="@this.Url.Content("~/Scripts/modernizr.js")"/
+<script src="/assets/js/jquery-1.11.0.min.js"></script>   -->
+<script  src="/assets/js/modernizr.js"></script>
+<script  src="/assets/js/intro_paragraph.js"></script>
+
+ 
+
+     <script src="//code.angularjs.org/1.2.20/angular-route.js"></script>
+    <script src="//code.angularjs.org/1.2.13/angular-cookies.js"></script>
+
+    <script src="app.js"></script>
+    <script src="services/authentication.service.js"></script>
+    <script src="services/flash.service.js"></script>
+
+    <!-- Real user service that uses an api -->
+ 
+  
+ <script src="services/user.service.js"></script>
+
+<script src="components/home/home.controller.js"></script>
+<script src="components/home/main.controller.js"></script>
+<script src="components/home/home.dropdown.controller.js"></script>
+<script src="components/home/top.nav.controller.js"></script>
+<script src="components/home/top.dropdown.controller.js"></script>
+
+
+<script src="components/login/login.controller.js"></script>
+    <script src="components/register/register.controller.js"></script>
+
+
+<script  src="/assets/js/FormCheck.js"></script>
+<!--  <script  src="/assets/js/jquery-1.7.1.min.js"></script>
+<script  src="/assets/js/jquery-ui-1.8.16.custom.min.js"></script
+  <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="/assets/css/jquery.smartmenus.min.js"></script>-->
+
+	<link href="/assets/css/sm-core-css.css" rel="stylesheet" type="text/css" />
+<link href="/assets/css/sm-clean.css" rel="stylesheet" type="text/css" />
+
+      
+</head>
+
+<body >
+
+       <div class="#headerMenuDiv">
+          <div >
+                <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+                <div ng-view></div>
+            </div>
+     </div>
+   
+
+	<div id="footer">
+	<div id="copyright">
+		<a class="textLike" href="http://apihealthcare.com/health-systems/staffing-scheduling" target="_blank">Hospital scheduling software</a>, <a class="textLike" href="http://apihealthcare.com" target="_blank">workforce management tools</a> and Electronic Employee Record (EER) provided by API Healthcare<br />&copy;2015 API Healthcare Corporation - All rights reserved - <a href="http://apihealthcare.com/terms-of-use" target="_blank">Terms of Use</a> | <a href="http://apihealthcare.com/privacy-policy" target="_blank">Privacy Policy</a> API Healthcare. 
+	</div>
+	<div id="versionFooter">
+		v.2015.2.0.0 build 16
+	</div>
+</div>
+	
+		
+</body>
+
+
+<style>
+
+#header {
+	width: 100%;
+	z-index: 150;
+	position: relative;
+}
+
+#headerUserInfo {
+	position: relative;
+	width: 95%;
+	color: #333333;
+	white-space: nowrap;
+}
+
+#headerUserInfo span {
+	position: relative;
+	padding: 5px 25px 0px 0px;
+	line-height: 20px;
+}
+
+#headerUserInfo span.right {
+	float: right;
+}
+​
+</style>
+	
+
+</html>

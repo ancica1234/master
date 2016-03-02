@@ -1,0 +1,69 @@
+/*
+ * Interface import page
+ */
+ 
+.step {
+    width: 100%;
+}
+.step img {
+    float: left;
+    height: 15px;
+    margin: 4px 10px;
+    width: 15px;
+}
+
+.step input {
+    float: right;
+}
+
+.description {
+    float: left;
+    width: 600px;
+}
+
+.description h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.container {
+    width: 845px;
+}
+
+
+/*
+ * Interface result page
+ */
+ 
+.results {
+ 	border-collapse: separate;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+table th {
+	text-align: left;
+}
+
+table td {
+	padding: 7px;
+	background-color: #FFFFFF;
+}
+
+table h4 {
+	font-weight: bold;
+	margin: 0px 5px;
+}
+
+
+/*
+ * Interface log and error page
+ */
+
+.hideText {
+	display: none;
+}
+
+.noLogs {
+	text-align: center;
+}

@@ -1,0 +1,1354 @@
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color:white;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+	padding:0px 0px 10px 0px;
+	margin:0px;
+}
+
+a:link {
+	color:#036;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#036;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#036;
+	text-decoration:none;
+}
+
+table {
+	position:relative;
+}
+
+td {
+	font-size:11px;
+	position:relative;
+}
+
+#mainContent {
+	position:relative;
+	padding-top:5px;
+	width:100%;
+}
+
+#mainCell {
+	background-color:#E6E6E6;
+}
+
+#clientLogo {
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+.filler {
+	overflow:hidden;
+	height:1px;
+	width:1px;
+}
+
+.big {
+	font:bold 18px Optima, Times, serif;
+	padding-bottom:12px;
+	white-space:nowrap;
+}
+
+.med {
+	color:#036;
+}
+
+.button {
+	background-image:url(../images/graphic_topbar.png);
+	padding:2px;
+	color:white;
+	font-weight:bold;
+	border:none;
+	width:170px;
+}
+
+.buttonSmall {
+	background-image:url(../images/graphic_topbar.png);
+	padding:2px;
+	color:white;
+	font-weight:bold;
+	border:none;
+	width:100px;
+}
+
+.checkradio {
+	border:none;
+}
+
+.lineH {
+	height:1px;
+	background-color: #666;
+	overflow: hidden;
+	width:100%;
+}
+.lineV {
+	width:1px;
+	background-color: #666;
+	overflow: hidden;
+}
+
+.leftSide {
+	padding-right:10px;
+}
+
+.rightSide {
+	background-color:#E6E6E6;
+}
+
+.bg1 {
+	background-color:#9cf;
+}
+
+input, textarea, select {
+	border:1px solid #036;
+	font:normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.formField {
+	width:170px;
+	_width:auto;
+}
+
+#logout {
+	position:relative;
+	width:100%;
+	height:10px;
+	text-align:right;
+	top:-5px;
+}
+
+/* ------------- CONTENT BACKGROUND ------------- */
+
+#contentTopLtBg {
+	background-image:url(../images/graphic_topltbg.gif);
+	background-repeat:no-repeat;
+	background-color:#E6E6E6;
+	width:10px;
+	height:12px;
+}
+
+#contentTopBg {
+	background-color:#E6E6E6;
+}
+
+#contentTopBgBordered{
+	border-top:1px solid #369;
+	background-color:#E6E6E6;
+}
+
+#contentTopDkBg {
+	border-top:1px solid #369;
+	background-color:#E6E6E6;
+}
+
+#contentTopRtBg {
+	background-image:url(../images/graphic_toprtbg_1.gif);
+	background-repeat:no-repeat;
+	background-color:#E6E6E6;
+	width:14px;
+}
+
+#contentLtBg {
+	border-left:1px solid #369;
+	background-color:#E6E6E6;
+	width:9px;
+}
+
+#contentRtShadBg {
+	background-image:url(../images/graphic_rtshad_1.gif);
+	background-repeat:repeat-y;
+	background-color:#E6E6E6;
+	width:10px;
+}
+
+#contentBotLtBg {
+	background-image:url(../images/graphic_botltbg.gif);
+	background-repeat:no-repeat;
+	background-color:#E6E6E6;
+	width:10px;
+	height:14px;
+}
+
+#contentBotShadBg {
+	background-image:url(../images/graphic_botshad.gif);
+	background-repeat:repeat-x;
+	background-color:#E6E6E6;
+	height:14px;
+}
+
+#contentBotDkShadBg {
+	background-image:url(../images/graphic_botshad.gif);
+	background-repeat:repeat-x;
+	height:14px;
+	background-color:#E6E6E6;
+}
+
+#contentBotRtBg {
+	background-image:url(../images/graphic_botrtbg_1.gif);
+	background-repeat:no-repeat;
+	background-color:#E6E6E6;
+	width:14px;
+	height:14px;
+}
+
+/* ------------------ NAV TABS ------------------ */
+
+.tabSelected {
+	border-right:1px solid white;
+}
+
+.tabSelected a:link {
+	color:black;
+	text-decoration:none;
+}
+
+.tabSelected a:hover {
+	color:black;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.tabSelected a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+.navTabBgSelected {
+	position:relative;
+	width:100%;
+	height:24px;
+	text-align:center;
+}
+
+.navTabLeftSelected {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-image:url(../images/graphic_tab_select_lt.png);
+	background-repeat:no-repeat;
+	width:10px;
+	height:24px;
+	overflow:hidden;
+}
+
+.navTabLabelSelected {
+	position:relative;
+	text-align:center;
+	white-space:nowrap;
+	padding:6px 0px 5px 0px;
+	margin:0px 9px 0px 8px;
+	font-weight:bold;
+	background-image:url(../images/graphic_tab_select_bg.png);
+	background-repeat:repeat-x;
+}
+
+.navTabRightSelected {
+	position:absolute;
+	top:0px;
+	right:0px;
+	background-image:url(../images/graphic_tab_select_rt.png);
+	background-repeat:no-repeat;
+	width:9px;
+	height:24px;
+	overflow:hidden;
+}
+
+/* ---------------------------------------------- */
+
+.tab {
+	border-right:1px solid white;
+}
+
+.tab a:link {
+	color:white;
+	text-decoration:none;
+}
+
+.tab a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+.tab a:hover {
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.tabLast {
+	border-right:none;
+}
+
+.tabLast a:link {
+	color:white;
+	text-decoration:none;
+}
+
+.tabLast a:hover {
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.tabLast a:visited {
+	color:white;
+	text-decoration:none;
+}
+.navTabBg {
+	position:relative;
+	width:100%;
+	height:24px;
+	text-align:center;
+}
+.navTabBg {
+	position:relative;
+	width:100%;
+	height:24px;
+	text-align:center;
+}
+
+.navTabLeft {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-image:url(../images/graphic_tab_lt.png);
+	background-repeat:no-repeat;
+	width:8px;
+	height:24px;
+	overflow:hidden;
+}
+
+.navTabLabel {
+	position:relative;
+	text-align:center;
+	white-space:nowrap;
+	padding:6px 0px 5px 0px;
+	margin:0px 9px 0px 8px;
+	background-image:url(../images/graphic_tab_bg.png);
+	background-repeat:repeat-x;
+}
+
+.navTabRight {
+	position:absolute;
+	top:0px;
+	right:0px;
+	background-image:url(../images/graphic_tab_rt.png);
+	background-repeat:no-repeat;
+	width:9px;
+	height:24px;
+	overflow:hidden;
+}
+
+/* ----------------- SIGNUP PAGE ---------------- */
+
+#signupHelpText {
+	position:relative;
+	padding-bottom:7px;
+	font-weight:bold;
+}
+
+#signupSteps {
+	position:absolute;
+	top:0px;
+	right:0px;
+	font-weight:normal;
+}
+
+span.hidden{
+  display: none;
+}
+
+span.error{
+  display: inline;
+  color: red;
+}
+
+/* ----------------- LOGIN PAGE ----------------- */
+
+#welcomeContent {
+	position:relative;
+	padding-top:5px;
+	text-align:center;
+	width:100%;
+}
+
+
+#contentTopBgIndex {
+	border-top:1px solid #369;
+	background-color:#E6E6E6;
+}
+
+#contentTopDkBgIndex {
+	border-top:1px solid #369;
+	background-color:#ccc;
+}
+
+#contentTopRtBgIndex {
+	background-image:url(../images/graphic_toprtbg_1.gif);
+	background-repeat:no-repeat;
+	width:14px;
+	background-color:#ccc;
+}
+
+#contentRtShadBgIndex {
+	background-image:url(../images/graphic_rtshad_1.gif);
+	background-repeat:repeat-y;
+	width:10px;
+	background-color:#ccc;
+}
+
+#contentBotDkShadBgIndex {
+	background-image:url(../images/graphic_botshad.gif);
+	background-repeat:repeat-x;
+	height:14px;
+	background-color:#ccc;
+}
+
+#contentBotRtBgIndex {
+	background-image:url(../images/graphic_botrtbg_1.gif);
+	background-repeat:no-repeat;
+	width:14px;
+	height:14px;
+	background-color:#ccc;
+}
+
+
+#welcomeCell {
+	background-color:#E6E6E6;
+}
+
+#welcomArea {
+	border:none;
+	padding:0px;
+}
+
+#featureImage {
+	width:160px;
+}
+
+#welcomeText {
+	width:250px;
+	padding-right:10px;
+}
+
+#loginTable {
+	padding:5px;
+	border:none;
+}
+
+#loginCell {
+	background-color:#ccc;
+	padding:0px 10px 5px 10px;
+}
+
+#loginCell input {
+	width:140px;
+}
+
+.loginExistingUser {
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom: 10px;
+	color:#003366;
+}
+
+.loginNewUser {
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:10px;
+	color:#003366;
+}
+
+#aBidShiftProduct {
+        position:absolute;
+        bottom:14px;
+}
+
+/* ----------------- MAIN PAGE ------------------ */
+
+#lastLogin {
+	position:absolute;
+	top:6px;
+	left:119px;
+	color:white;
+	font-weight:normal;
+}
+
+#summaryRow {
+	position:relative;
+	width:100%;
+	height:18px;
+	margin:1px 0px;
+	background-color:#fff;
+}
+
+#summaryRowImportant {
+	position:relative;
+	width:100%;
+	height:18px;
+	font-weight:bold;
+	margin:1px 0px;
+	background-color:#9cf;
+}
+
+#summaryRowRewards {
+	position:relative;
+	width:100%;
+	height:18px;
+	font-weight:bold;
+	margin:1px 0px;
+	background-color:#cef;
+}
+
+#summaryRowLabel {
+	position:absolute;
+	left:10px;
+}
+
+#summaryRowCount {
+	position:absolute;
+	right:10px;
+}
+
+#quickSearch {
+	padding:5px;
+	background-color:white;
+}
+
+.quickSearchFieldsLeft  {
+	clear:both;
+	float:left;
+	font-weight:bold;
+}
+
+.quickSearchFieldsRight, .perDiemSummaryFieldsRight {
+	float:right;
+}
+
+.quickSearchFields, .perDiemSummaryFields, .perDiemSummaryFieldImportant {
+	clear:both;
+	position:relative;
+	padding:3px 5px 0px 5px;
+	margin:1px 0px 0px 0px;
+	background-color:white;
+	width:auto;
+	height:20px;
+}
+
+.perDiemSummaryFieldsLeft {
+	clear:both;
+	float:left;
+	width: 220px;
+}
+
+.perDiemSummaryFieldImportant {
+	background-color:white;
+	font-weight:bold;
+}
+
+.perDiemSummaryFieldAwarded {
+	float:left;
+	text-align:right;
+	width:30px;
+}
+
+.perDiemSummaryFieldRequired {
+	float:right;
+	text-align:right;
+	padding-right:15px;
+}
+
+
+#announcement {
+	position: relative;
+	height: 300px;
+	overflow: auto;
+	background-color: #ffffff;
+}
+
+#systemMessage {
+	position: relative;
+	height: 200px;
+	overflow: auto;
+	background-color: #ffffff;
+}
+
+/* ------------------ per diem summary ------------------ */
+.perDiemSummaryFieldsLeft {
+	clear:both;
+	float:left;
+}
+
+.perDiemSummaryFieldsRight {
+	float:right;
+}
+
+.perDiemSummaryFields, .perDiemSummaryFieldImportant {
+	clear:both;
+	position:relative;
+	padding:3px 5px 0px 5px;
+	margin:1px 0px 0px 0px;
+	background-color:white;
+	width:auto;
+	height:20px;
+}
+
+.perDiemSummaryFieldImportant {
+	background-color:white;
+	font-weight:bold;
+}
+
+/* ------------------- collapsible boxes ------------------- */
+.collapseBoxLeft {
+	float: left;
+	margin: 5px 0px;
+}
+
+.collapseBox {
+	float:right;
+	width:14px;
+	height:14px;
+	color:white;
+	font:normal 16px Times;
+	border:1px solid white;
+	overflow:hidden;
+	line-height:14px;
+	text-align:center;
+	margin: 3px 0px;
+	text-decoration:none;
+}
+
+/* ------------------ CALENDAR ------------------ */
+
+#calendarBg {
+	position:relative;
+	width:770px;
+}
+
+#calendarTabMyShifts {
+	position:absolute;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	top:80px;
+}
+
+#calendarTabAllShifts {
+	position:absolute;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	top:170px;
+}
+
+
+.calendarTabSelected {
+	right:0px;
+	width:25px;
+	background-color:white;
+	border-top:1px solid #666;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	border-left:none;
+	z-index:10;
+}
+.calendarTabUnselected {
+	right:5px;
+	width:20px;
+	background-color:#69c;
+	border-top:1px solid #666;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	border-left:none;
+	z-index:1;
+}
+
+#calendarBox {
+	position:relative;
+	background-color:white;
+	padding:4px;
+	margin-right:24px;
+	border:1px solid #666;
+	z-index:5;
+}
+
+#calendarMonth {
+	position:relative;
+	font-weight:bold;
+	color:black;
+	height:25px;
+	text-align:left;
+}
+
+#calendarButtons {
+	position:absolute;
+	top:5px;
+	left:540px;
+}
+
+#calendarHelpText {
+	position:absolute;
+	top:-15px;
+	left:5px;
+}
+
+#calendarHelpText span {
+	font-weight:bold
+}
+
+.qualified {
+	color:#333;
+	white-space:nowrap;
+}
+
+.qualified a:link {
+	color:#333;
+}
+
+.qualified a:visited {
+	color:#333;
+}
+
+.qualified a:hover {
+	color:#333;
+}
+
+.requested {
+	color:green;
+	white-space:nowrap;
+}
+
+.requested a:link {
+	color:green;
+}
+
+.requested a:visited {
+	color:green;
+}
+
+.requested a:hover {
+	color:green;
+}
+
+.outbid {
+	color:red;
+	white-space:nowrap;
+}
+
+.outbid a:link {
+	color:red;
+}
+
+.outbid a:visited {
+	color:red;
+}
+
+.outbid a:hover {
+	color:red;
+}
+
+.awarded {
+	color:#369;
+	white-space:nowrap;
+}
+
+.scheduled {
+	color:#036;
+	white-space:nowrap;
+}
+
+.calendarTable {
+	border-bottom:1px solid #333;
+	background-color:white
+}
+
+.calendarTable a:link {
+	text-decoration:none;
+}
+
+.calendarTable a:visited {
+	text-decoration:none;
+}
+
+.calendarTable a:hover {
+	text-decoration:underline;
+}
+
+#calendarDaytime {
+	text-align:center;
+	font-weight:bold;
+	width:10px;
+	border-right:1px solid #333;
+}
+
+#calendarDateLegend {
+	font-weight:bold;
+	color:black;
+	border-left:1px solid #333;
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+
+#calendarDayShiftLegend {
+	text-align:center;
+	font-size:9px;
+	border-left:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarEveShiftLegend {
+	text-align:center;
+	font-size:9px;
+	border-left:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarNightShiftLegend {
+	text-align:center;
+	font-size:9px;
+	border-left:1px solid #333;
+	border-right:1px solid #333;
+}
+
+#calendarWeekdays {
+	text-align:center;
+	font-weight:bold;
+	width:98px;
+	border-right:1px solid #333;
+	border-top:1px solid #333;
+}
+
+#calendarDate {
+	font-weight:bold;
+	color:black;
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarShift {
+	text-align:center;
+	border-right:1px solid #333;
+	height:72px;
+}
+
+#calendarShiftToday {
+	text-align:center;
+	background-color:#ccc;
+	border-right:1px solid #333;
+	height:72px;
+}
+
+#calendarDayShift {
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarEveShift {
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarNightShift {
+	text-align:center;
+	border-right:1px solid #333;
+}
+
+#calendarDateAwarded {
+	background-color:#369;
+	color:white;
+	font-weight:bold;
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #69c;
+}
+
+#calendarAwarded {
+	text-align:center;
+	color:white;
+	background-color:#369;
+	border-right:1px solid #333;
+}
+
+#calendarAwarded a {
+	color:white;
+}
+
+#calendarDayAwarded {
+	text-align:center;
+	color:white;
+	background-color:#369;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarDayAwarded a {
+	color:white;
+}
+
+#calendarEveAwarded {
+	text-align:center;
+	color:white;
+	background-color:#369;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarEveAwarded a {
+	color:white;
+}
+
+#calendarNightAwarded {
+	text-align:center;
+	color:white;
+	background-color:#369;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarNightAwarded a {
+	color:white;
+}
+
+#calendarDayScheduled {
+	text-align:center;
+	color:white;
+	background-color:#036;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarDayScheduled a {
+	color:white;
+}
+
+#calendarEveScheduled {
+	text-align:center;
+	color:white;
+	background-color:#036;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarEveScheduled a {
+	color:white;
+}
+
+#calendarNightScheduled {
+	text-align:center;
+	color:white;
+	background-color:#036;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarNightScheduled a {
+	color:white;
+}
+
+#calendarDateToday {
+	background-color:#ccc;
+	font-weight:bold;
+	color:black;
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #efefef;
+}
+
+#calendarDayShiftToday {
+	background-color:#ccc;
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #999;
+}
+
+#calendarEveShiftToday {
+	background-color:#ccc;
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #999;
+}
+
+#calendarNightShiftToday {
+	background-color:#ccc;
+	text-align:center;
+	border-right:1px solid #333;
+}
+
+#calendarDateNext {
+	background-color:#eee;
+	font-weight:bold;
+	color:#999;
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarShiftNext {
+	background-color:#eee;
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarDayShiftNext {
+	background-color:#eee;
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarEveShiftNext {
+	background-color:#eee;
+	text-align:center;
+	border-right:1px solid #333;
+	border-bottom:1px solid #ccc;
+}
+
+#calendarNightShiftNext {
+	background-color:#eee;
+	text-align:center;
+	border-right:1px solid #333;
+}
+
+#calendarOnCall {
+	text-align:center;
+	color:black;
+	background-color:#FFCC00;
+	border-right:1px solid #333;
+}
+
+.oncall {
+	color:#FFCC00;
+	white-space:nowrap;
+}
+
+.oncall a {
+	color:#FFCC00;
+}
+
+#calendarOnCall a:link,
+#calendarOnCall a:visited,
+#calendarOnCall a:hover {
+	color:black;
+	text-decoration:none;
+}
+
+#calendarNonDuty {
+	text-align:left;
+	color:black;
+	font-weight:bold;
+	background-color:#c00;
+	border-right:1px solid #333;
+}
+
+#calendarNonDuty span {
+	font-weight:normal;
+	padding-left:10px;
+	color:#333;
+}
+
+/* --------------- SHIFT LISTING ---------------- */
+
+.table_header {
+	background-image:url(../images/graphic_topbar.png);
+	background-repeat:repeat-x;
+	color:white;
+	font-weight:bold;
+	height:25px;
+	padding:3px 10px 3px 10px;
+}
+
+.table_header_selected {
+	background-image:none;
+	background-color:#69c;
+	color:white;
+	font-weight:bold;
+	height:25px;
+	padding:3px 10px 3px 10px;
+	white-space:nowrap;
+}
+
+.table_header a:link {
+	color:white;
+	text-decoration:none;
+}
+
+.table_header a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+.table_header a:hover {
+	color:white;
+	text-decoration:underline;
+}
+
+.table_row_odd {
+	background-color:white;
+}
+
+.table_row_even {
+	background-color:#9cf;
+}
+
+.listLabel {
+	font-weight:bold;
+	padding:0px 0px 5px 5px;
+}
+
+#iconLegendBottom {
+	font-size:10px;
+	white-space:nowrap;
+}
+
+#iconLegendTop {
+	font-size:10px;
+	white-space:nowrap;
+}
+
+/* ---------------- SHIFT DETAIL ---------------- */
+
+.background1 {  background-color: #FFFFFF; color: #000000}
+.background2 { background-color: #99CCFF}
+.background3 { background-color: #CCCCCC}
+.background4 { background-color: #DDF2FF}
+.background5 { background-color: #EEEEEE}
+.background6 { background-color: #333333; color: #FFFFFF; text-decoration: none; border-width: 2px 1px 1px 2px; border-color: #999999; border-style: solid}
+.background7 { background-color: #999999; color: #666666}
+.Bg_Shift_Award { background-color: #369; font-weight: bold; color: #fff}
+.Bg_Shift_Outbid { background-color: #CC0000; font-weight: bold; color: #FFFFFF}
+.Bg_Shift_NotQualified { background-color: #CCCCCC; font-weight: bold; color: #000000}
+.Bg_Shift_AlreadyRequested { background-color: #009933; font-weight: bold; color: #FFFFFF}
+.Bg_Shift_OpenToRequest { background-color: #009933 ; font-weight: bold; color: #FFFFFF}
+.Bg_Shift_ClosedToRequests { background-color: #CC0000 ; font-weight: bold; color: #FFFFFF}
+.Bg_Shift_NeedsWinner { background-color: #FFCC00; font-weight: bold; color: #000000}
+.Bg_Shift_Pending { background-color: #CCCCCC ; font-weight: bold; color: #000000}
+.Bg_Shift_Scheduled { background-color: #036 ; font-weight: bold; color: #fff}
+.outbid_text { font:normal 11px Verdana, Arial, Helvetica, sans-serif; color: #CC0000; }
+.winning_text { font:normal 11px Verdana, Arial, Helvetica, sans-serif; color: green; }
+.pending_text { font:normal 11px Verdana, Arial, Helvetica, sans-serif; color: #666666; }
+
+.outBidText {
+	color:red;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px;
+	width:550px;
+}
+
+.shiftChangeAlert {
+	text-align:left;
+	font-weight:bold;
+	color:#900;
+	padding-top:5px;
+}
+
+.splitSelect {
+	width:60px;
+}
+
+.buttonXsmall {
+	background-color:#369;
+	color:white;
+	font:bold 9px Verdana, sans-serif;
+	width:60px;
+	border:none;
+	margin-top:3px;
+}
+
+/* ---------------- PROFILE PAGE ---------------- */
+
+#agencyFootnoteButtons {
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:10px 0px;
+}
+
+#agencyFootnote {
+	width:280px;
+}
+
+#agencyButtons {
+		position:absolute;
+		top:0px;
+		right:0px;
+		width:249px;
+		text-align:right;
+}
+
+/* ------------------- FOOTER ------------------- */
+
+#footer {
+	background-image:url(../images/graphic_botbar.png);
+	background-repeat:repeat-x;
+	position:relative;
+	left:0px;
+	width:100%;
+	color:white;
+	height:25px;
+	margin-top:20px;
+}
+
+#footerLinks {
+	position:absolute;
+	top:6px;
+	right:10px;
+}
+
+#copyRight {
+	position:absolute;
+	top:6px;
+	left:10px;
+}
+
+#footerLinks a:link {
+	color:white;
+	text-decoration:underline;
+}
+
+#footerLinks a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+#footerLinks a:visited {
+	color:white;
+	text-decoration:underline;
+}
+
+
+/* ----------------- multiple unit selection ---------------- */
+
+#hospitalUnitsDiv {
+	position:absolute;
+	left:0px;
+	top:10px;
+	z-index:1000;
+	visibility:hidden;
+	width: 100%;
+}
+
+#hospitalUnitsPopupClose {
+	font-size:18px;
+	font-weight:bold;
+	text-align:right;
+	padding:0px 15px;
+	background-color:white;
+	border: solid black 1px;
+	border-bottom: none;
+}
+
+#hospitalUnitsPopupClose a:link {
+	text-decoration:none;
+	color:#900;
+}
+
+#hospitalUnitsPopupClose a:visited {
+	text-decoration:none;
+	color:#900;
+}
+
+#hospitalUnitsPopupClose a:hover {
+	text-decoration:none;
+	color:#900;
+}
+
+#hospitalUnitsDataLayer {
+	width: auto;
+	white-space: nowrap;
+	background-color:white;
+	border: solid black 1px;
+	border-top: none;
+	border-bottom: none;
+}
+
+#hospitalUnitsPopupSelect {
+	padding: 10px 0px;
+	background-color:white;
+	border: solid black 1px;
+	border-top: none;
+}
+
+/* ----------------- multiple job title selection ---------------- */
+#jobTitleDiv {
+	position:absolute;
+	left:0px;
+	top:10px;
+	z-index:1000;
+	visibility:hidden;
+	width: 100%;
+}
+
+#jobTitlePopupClose {
+	font-size:18px;
+	font-weight:bold;
+	text-align:right;
+	padding:0px 15px;
+	background-color:white;
+	border: solid black 1px;
+	border-bottom: none;
+}
+
+#jobTitlePopupClose a:link {
+	text-decoration:none;
+	color:#900;
+}
+
+#jobTitlePopupClose a:visited {
+	text-decoration:none;
+	color:#900;
+}
+
+#jobTitlePopupClose a:hover {
+	text-decoration:none;
+	color:#900;
+}
+
+#jobTitleDataLayer {
+	width: auto;
+	white-space: nowrap;
+	background-color:white;
+	border: solid black 1px;
+	border-top: none;
+	border-bottom: none;
+}
+
+#jobTitlePopupSelect {
+	padding: 10px 0px;
+	background-color:white;
+	border: solid black 1px;
+	border-top: none;
+}
+
+/* Training Style */
+
+.training {
+	color: rgb(0, 51, 102);
+	font-family: Arial;
+	font-size: 68px;
+	font-weight: bold;
+	letter-spacing: -6px;
+}
